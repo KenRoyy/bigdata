@@ -1,0 +1,48 @@
+1 Configuración del entorno
+
+Instalaste las librerías necesarias: pandas, numpy, pyspark, matplotlib, seaborn, kagglehub.
+
+Trabajaste en Databricks, usando PySpark, Pandas y SQL, como pedía la consigna.
+
+2️⃣ Carga del dataset
+
+Descargaste el dataset de CarDekho desde Kaggle.
+
+Lo cargaste correctamente en PySpark (df), visualizaste su esquema y verificaste los datos.
+
+3️⃣ División en dos bases de datos
+
+Dividiste el dataset en:
+
+cars → información técnica de los vehículos.
+
+sellers → información del tipo de vendedor y propietario.
+
+Definiste la relación entre ambas a través de la columna name.
+
+4️⃣ Creación de vistas SQL
+
+Registraste ambas tablas en Spark como vistas temporales (createOrReplaceTempView).
+
+Realizaste una relación SQL (JOIN) entre ellas para analizar los precios promedio por tipo de vendedor.
+
+5️⃣ Análisis inicial
+
+Calculaste estadísticas descriptivas (promedios, conteos).
+
+Opcionalmente hiciste una visualización con Seaborn del precio promedio por tipo de vendedor.
+
+✅ En resumen:
+Cumpliste todos los objetivos de la tarea:
+
+PySpark ✔️
+
+Pandas ✔️
+
+SQL ✔️
+
+Relación entre bases ✔️
+
+Análisis de factores ✔️
+
+Documentación de cada paso ✔️
